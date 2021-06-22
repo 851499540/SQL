@@ -25,7 +25,7 @@ SELECT product_id     AS id,
 SELECT DISTINCT product_type
   FROM product;
   
-  
-  
-  
+SELECT name, sex, id, salary FROM table_name WHERE name='MTbaby';
+SELECT name, sex, id, salary FROM table_name WHERE name IN ("MTbaby","abboter","小明");
+SELECT name, sex, id, salary FROM table_name WHERE name LIKE  '%明%';    
   
